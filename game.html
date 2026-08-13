@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        <!DOCTYPE html>
+<html>
+<head>
+<style>
+.game {
+    position: relative;
+    width: 600px;
+    height: 260px;
+    background-color: lightblue;
+    border: 3px solid navy;
+    overflow: hidden;
+}
+
+#player {
+    position: absolute;
+    left: 20px;
+    top: 90px;
+    width: 70px;
+}
+</style>
+</head>
+<body>
+
+<div class="game">
+    <img id="player" src="../rocket.png">
+</div>
+
+<button onclick="movePlayer()">MOVE RIGHT</button>
+
+<script>
+function movePlayer() {
+    let player = document.getElementById("player");
+
+    player.style.left = "100px";
+}
+</script>
+
+</body>
+</html>
+    </script>
+</body>
+</html>
